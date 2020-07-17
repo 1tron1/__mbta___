@@ -14,6 +14,7 @@ def index():
 
 @app.route('/boards/<board>')
 def boards(board):
+    #TODO: add regex to fix boards with forward slashes
     sched,pred = mbta.sched_pred(board)
 
     departure_board = mbta.load_board(sched,pred)

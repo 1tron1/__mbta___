@@ -15,7 +15,7 @@ COPY . /app
 
 RUN python3 mbta.py
 
-RUN python3 test.py
+RUN python3 -m unittest test.py
 
 ENTRYPOINT [ "python" ]
 
