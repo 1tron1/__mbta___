@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "arrival_time": "2020-07-17T12:28:00-04:00",
+                "departure_time": "2020-07-17T12:28:00-04:00",
+                "direction_id": 0,
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 9
+            },
+            "id": "prediction-CR-Weekday-Summer-20-811-Providence-9",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "schedule": {
+                    "data": {
+                        "id": "schedule-CR-Weekday-Summer-20-811-Providence-9",
+                        "type": "schedule"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "Providence",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-Weekday-Summer-20-811",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "1813",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        }
+    ],
+    "included": [
+        {
+            "attributes": {
+                "arrival_time": "2020-07-17T12:27:00-04:00",
+                "departure_time": "2020-07-17T12:28:00-04:00",
+                "direction_id": 0,
+                "drop_off_type": 0,
+                "pickup_type": 0,
+                "stop_headsign": null,
+                "stop_sequence": 9,
+                "timepoint": true
+            },
+            "id": "schedule-CR-Weekday-Summer-20-811-Providence-9",
+            "relationships": {
+                "prediction": {},
+                "route": {
+                    "data": {
+                        "id": "CR-Providence",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "Providence",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "CR-Weekday-Summer-20-811",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "schedule"
+        }
+    ],
+    "jsonapi": {
+        "version": "1.0"
+    }
+}
